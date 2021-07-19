@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel=" shortcut icon" href="waveicon.ico"/>
+    <title>imagem HTML</title>
+</head>
+<body>
+    <h1>Adicionando imagem aqui na página HTML</h1>
+    <p><b>IMPORTANTE:</b> <span>Vale ressaltar que as imagens devem:</span></p>
+    <div>Ter pouco espaço em byte;</div>
+    <div>Ter direitos autorais livres.</div>
+    <div>Localizar-se na pasta burra</div>
+    <div><b>Para favicon: </b>" link rel=" shortcut icon" href="waveicon.ico" " </div>
+    <img src="fotoeu.jpeg" alt="foto linda da maya" />
+    <address>
+        Endereço: R. Men de Sá, 800 - Bom Sucesso,<br />
+        Gravataí - RS,<br />
+        94135-310
+    </address>
+</body>
+</html>
