@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Seletores</title>
+    <style>
+    
+    /*   <link rel="stylesheet" href="style.css"/>  */
+
+        /*
+           :PSEUDOCLASS >> Para um elemento quando o cursor do mouse passa sobre ele (hover)
+        ○ Para hyperlinks não visitados (link) ou já visitados (visited)
+        ○ Para um elemento que recebeu o foco (focus)
+        ○ Para um elemento quando input está desabilitado (disabled)
+   ::PSEUDOELEMENT >> parte especifica de um elemento, por exemplo:
+    ○ Para a primeira letra (first-letter) de um elemento;
+    ○ Para a primeira linha (first-line) de um elemento;
+    ○ Para definir conteúdo antes (before) ou depois (after) do conteúdo do
+    elemento;
+    ○ Para a porção do elemento selecionada pelo usuário (selection).
+        */
+        div {
+            background-color: #aef7e3;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            display: compact;
+        }
+
+            div:hover {
+                background-color: yellow;
+            }
+
+        #tit {
+            font: bold 30px arial,verdana;
+            text-align: center;
+        }
+
+        #d2 {
+            background-color: azure;
+        }
+
+        .clas {
+            background-color: #ffd800;
+            font-style: italic;
+        }
+
+
+        .azul {
+            color: blue;
+        }
+
+        .centro {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    <h1 id="tit"> Texto de Titulo </h1>
+    <h2>subtitulo</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.
+        Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+    </p>
+    <h2>subtitulo</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.
+        Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+    </p>
+    <h2>subtitulo</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.
+        Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+    </p>
+    <h1>Outro título</h1>
+    <h2>subtitulo</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.
+        Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+    </p>
+    <h2 class="clas">subtitulo</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum.
+        Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+    </p>
+    <h1 class="azul">Classe Azul!</h1>
+    <p class="centro">Classe Centro.</p>
+    <p class="azul centro">Classes Azul e Centro</p>
+</body>
+</html>
