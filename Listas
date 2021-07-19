@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Listas</title>
+</head>
+<body>
+    <dl>
+        <dt> Nosso amor </dt>
+        <dd> <cite>é coisa grande e linda sem explicação como disse um sabio</cite></dd>
+    </dl>
+    <ol type="I">
+        <li><b>Músicas</b></li>
+        <ul typeof="disc">
+            <li>pop smoke</li>
+            <li>jorge e mateus</li>
+        </ul>
+        <li><b>Filmes</b></li>
+        <ul typeof="square">
+            <li>como eu era antes de oce</li>
+        </ul>
+    </ol>
+</body>
+</html>
