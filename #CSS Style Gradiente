@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    /* background-color: cor única; */
+    height: 100%;
+    /*degradê*/
+    background-image: linear-gradient(to left, #f2fadf, #ccffa5);
+    background-attachment: fixed;
+    font-family: 'Times New Roman';
+    font-size: 1em;
+}
+
+h1 {
+    color: darkcyan;
+    background-color: aquamarine;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    color: indigo;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+    color: #174646;
+    /*Paleta Hexadecimal*/
+}
+
