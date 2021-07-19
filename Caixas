@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Boxs</title>
+    <style>
+        h1 {
+            font-family: monospace;
+            background-color: #ffffff;
+            height: 100px;
+            width: 10000px;
+            border: 10px solid #ffe555;
+            padding: 30px;
+            margin: 20px;
+            outline-color: #ffe555;
+            box-sizing: content-box;
+        }
+        a {
+            background-color: yellow;
+            font-family: 'Times New Roman' ;
+            border: 5px solid black;
+        }
+        p {
+            font-family: monospace;
+            background-color: lightgray;
+            height: 700px;
+            width: 500px;
+            border:5px solid #808080;
+            padding: 30px;
+            margin: auto;
+            outline-color: dimgray;
+        }
+    </style>
+</head>
+<body>
+    <h1> QUADRO DO TE AMO 😍 </h1>
+    <p>imagina uma geladeira<a>oi amor a louça é sua bjs</a>
+    ainda é a geladeira</p>
+</body>
+</html>
