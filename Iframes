@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>iframe</title>
+</head>
+<body>
+    //O Iframe é utilizado para definir uma página da web dentro de outra. Pode-se utilizar no
+    elemento os atributos:
+    ✘ width – comprimento do frame
+    ✘ height – altura do frame
+    ✘ src – (source) endereço da página
+    <h2>Iframe</h2>
+    <iframe height="500px" width="100%" src="http://www.ifsul.edu.br/"></iframe>
+    //Pode-se abrir o iframe através de um link na página, para isto é necessário acrescentar dois
+    atributos:
+    ✘ name – nome do frame, no elemento < iframe >
+        ✘ target – destino de abertura do frame, no elemento <a>
+            <h2>Iframe - Trocar Iframe através de um link</h2>
+            <iframe height="500px" width="100%" src="http://www.eitas.com.br/tutoriais/" name="iframe_a">
+            </iframe>
+            <p><a href="http://www.ifsul.edu.br/" target="iframe_a">Site do Ifsul</a></p>
+</body>
+</html>
