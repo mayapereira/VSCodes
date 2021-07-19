@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>formularios</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <p>autofocus para uma enfase na opção</p>
+            <legend>Dados Pessoais:</legend>
+            <label for="fname">Primeiro nome:</label><br>
+            <input type="checkbox" id="fname" name="fname"><br>
+            <label for="snome">Sobrenome:</label><br>
+            <input type="checkbox" id="snome" name="snome" autofocus>
+            <input type="submit" value="Submit">
+        </fieldset>
+        <button type="button" onclick="alert('Olá, bem-vindo!')">
+            Aperte aqui!
+        </button>
+    </form>
+    <form>
+        <input list="navegadores">
+        <datalist id="navegadores">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+        </datalist>
+    </form>
+    <form action="/action_page.php">
+        <p>disabled = campo inabilitado</p>
+        <p>type submit + action = campo na ação </p>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" disabled><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha">
+        <input type="submit" value="Enviar">
+    </form>
+    <form>
+        <p>o onlyread para não ter valor de entrada, apenas leitura</p>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" value="John" name="nome" readonly><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha">
+    </form>
+    <form>
+        <p>paleta de cores disponivel ao usuario</p>
+        <label for="cor">Selecione sua cor:</label>
+        <input type="color" id="cor" name="cor">
+    </form>
+    <form>
+        <p>data com limite de tempo, min e max</p>
+        <label for="festa">Escolha a sua data preferida da festa:</label>
+        <input type="date" id="festa" name="festa" min="2017-04-01" max="2017-04-30">
+    </form>
+    <form>
+        <p>data e hora sem limite de tempo</p>
+        <label for="dt">Data e hora para Consulta:</label>
+        <input type="datetime-local" id="dt" name="dt">
+    </form>
+</body>
+</html>
