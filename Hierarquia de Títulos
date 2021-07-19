@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Hierarquia de Títulos</title>
+</head>
+<body>
+    <h1>Título de Nível Um</h1>
+    <h2>Subtítulo 1</h2>
+    <h3>Sub do sub tipo 1.1</h3>
+    <h2>Subtítulo 2</h2>
+    <h3>Sub do sub tipo 2.1</h3>
+    <h3>Sub do sub tipo 2.2</h3>
+    <h4>Vai seguindo até h6 apenas.</h4>
+    <div style="border: 6px solid black">agora em prática</div>
+    <h1>Trabalho da matéria</h1>
+    <h2>Introdução</h2>
+    <h2>Objetivos</h2>
+    <h3>Objetivo geral</h3>
+    <h3>Objetivo Específico</h3>
+    <h4>Palavras-chave</h4>
+    <p> em p/p vem no desenvolvimento e voce enche de blablabla</p>
+</body>
+</html>
